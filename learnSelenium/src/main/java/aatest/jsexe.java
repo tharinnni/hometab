@@ -21,7 +21,7 @@ public class jsexe {
 		
 
 		#tumbler
-
+fixed
 		#alert addeddddd
 		Alert ale = driver.switchTo().alert();
 	
