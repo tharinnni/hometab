@@ -19,7 +19,7 @@ public class jsexe {
 		Dimension d= new Dimension(100, 100);
 		driver.manage().window().setSize(d);
 		
-		
+		#alert added
 		Alert ale = driver.switchTo().alert();
 	
 	}
