@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LeafTap]">
+  <listeners>
+    <listener class-name="week7.day2.retryListener"/>
+  </listeners>
+  <test thread-count="5" name="Acconts(failed)">
+    <classes>
+      <class name="week7.day2.DeleteLead">
+        <methods>
+          <include name="leafTapDeleteLead"/>
+          <include name="closeWebBrowser"/>
+          <include name="setupAndLogin"/>
+        </methods>
+      </class> <!-- week7.day2.DeleteLead -->
+    </classes>
+  </test> <!-- Acconts(failed) -->
+</suite> <!-- Failed suite [LeafTap] -->

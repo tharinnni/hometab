@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeafTap">
+  <test thread-count="5" name="LeadsOperation">
+    <classes>
+      <class name="week6.day1.oops.DeleteLead"/>
+      <class name="week6.day1.oops.CreateLead"/>
+    </classes>
+  </test> <!-- LeadsOperation -->
+</suite> <!-- LeafTap -->

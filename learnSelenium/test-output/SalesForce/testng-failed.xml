@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SalesForce]">
+  <test thread-count="5" name="Incident(failed)">
+    <classes>
+      <class name="week7.marathon.CreateNewIncident">
+        <methods>
+          <include name="driverSetup"/>
+          <include name="tearDown"/>
+          <include name="createNewIncident"/>
+        </methods>
+      </class> <!-- week7.marathon.CreateNewIncident -->
+    </classes>
+  </test> <!-- Incident(failed) -->
+</suite> <!-- Failed suite [SalesForce] -->

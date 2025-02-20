@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesForce">
+	<groups>
+		<run>
+			<include name="Account"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="SalesForceAccounts">
+		<classes>
+			<class name="week6.day1.assignment2.CreateAccounts" />
+			<class name="week6.day1.assignment2.DeleteAccount" />
+			<class name="week6.day1.assignment2.EditAccounts" />
+			<class name="week6.day1.assignment2.VerifySorting" />
+			<class name="week6.day1.assignment2.DummyMainCaseforFailure" />
+			<class
+				name="week6.day1.assignment2.DummyPreconditionForFailureCase" />
+			<class name="week6.day1.assignment2.CreateNewOpportunity" />
+			<class name="week6.day1.assignment2.CreateOppertunity" />
+		</classes>
+	</test> <!-- SalesForceAccounts -->
+</suite> <!-- SalesForce -->
