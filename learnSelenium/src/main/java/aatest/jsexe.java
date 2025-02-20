@@ -19,7 +19,10 @@ public class jsexe {
 		Dimension d= new Dimension(100, 100);
 		driver.manage().window().setSize(d);
 		
+
 		#tumbler
+
+		#alert addeddddd
 		Alert ale = driver.switchTo().alert();
 	
 	}
